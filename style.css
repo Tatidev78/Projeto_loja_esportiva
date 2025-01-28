@@ -1,0 +1,93 @@
+/* Estilos Gerais */
+.img-ajuste{
+    width: 95px;
+    height: auto;
+    border-radius: 15px;
+}
+body{
+    font-family: roboto, sans-serif;
+}
+.section-title, .section-title:hover{
+    font-family: alegreya, sans-serif;
+    font-size: 43px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    color: azure;
+}
+header{
+    background-color: rgb(211, 34, 34);
+    margin-bottom: 0;
+}
+
+h1{
+    text-align: center;
+}
+.nav-link{
+    color: azure;
+}
+
+.nav-link:hover {
+    color: lightgray; /* Efeito ao passar o mouse */
+}
+.text-size{
+    font-size: 17px;
+}
+.subtitle-text{
+    font-family: alegreya, sans-serif;
+    color: rgb(211, 34, 34);
+}
+#cursos, #fale-conosco{
+    background-color: lightgray;
+}
+.img-tam{
+    width: 250px;
+    border: 4px solid;
+    border-radius: 15px;
+}
+
+/* Estilos Específicos para nav-produtos */
+.nav-produtos .nav-link {
+    color: rgb(211, 34, 34) !important; /* Texto em RGB por padrão */
+    background-color: lightgrey !important; /* Fundo transparente por padrão */
+    border-radius: 10px !important; /* Borda arredondada */
+}
+
+.nav-produtos .nav-link.active {
+    color: rgb(211, 34, 34) !important; /* Sobrescreve a cor azul padrão */
+    background-color: transparent !important; /* Fundo transparente para o link ativo */
+}
+.nav-produtos1 .nav-link:hover {
+    color: lightgrey !important; /* Texto em lightgrey ao passar o mouse */
+    background-color: rgb(211, 34, 34) !important; /* Fundo em RGB ao passar o mouse */
+}
+
+.nav-produtos .nav-link:hover {
+    color: lightgrey !important; /* Texto em lightgrey ao passar o mouse */
+    background-color: rgb(211, 34, 34) !important; /* Fundo em RGB ao passar o mouse */
+}
+.custom-space {
+    margin: 20px; /* Adiciona margem em todos os lados */
+    padding: 15px; /* Adiciona padding em todos os lados */
+}
+.custom-img{
+    border-radius: 15px;
+}
+textarea{
+    resize:none;
+}
+.social-links {
+        text-decoration: none; /* Remove sublinhado ao passar o mouse */
+}
+
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 200px;
+    }
+.img-ajuste{
+    width:60px;
+    }
+.carousel.slide{
+    margin-bottom:0;
+}    
+    
+}
