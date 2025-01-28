@@ -69,6 +69,7 @@ h1{
     padding: 15px; /* Adiciona padding em todos os lados */
 }
 .custom-img{
+    width:250px;
     border-radius: 15px;
 }
 textarea{
@@ -89,5 +90,9 @@ textarea{
 .carousel.slide{
     margin-bottom:0;
 }    
-    
+.custom-img{
+    width:320px;
+}
+
+
 }
