@@ -25,9 +25,6 @@ h1{
     color: azure;
 }
 
-.nav-link:hover {
-    color: lightgray; /* Efeito ao passar o mouse */
-}
 .text-size{
     font-size: 17px;
 }
@@ -44,26 +41,17 @@ h1{
     border-radius: 15px;
 }
 
-/* Estilos Específicos para nav-produtos */
-.nav-produtos .nav-link {
-    color: rgb(211, 34, 34) !important; /* Texto em RGB por padrão */
-    background-color: lightgrey !important; /* Fundo transparente por padrão */
-    border-radius: 10px !important; /* Borda arredondada */
+.nav-produtos   .nav-link, 
+.nav-link.active {
+    color: azure;
+    background-color: rgb(211, 34, 34) !important; /* Fundo em RGB ao passar o mouse */
+    border-radius: 10px;
 }
 
-.nav-produtos .nav-link.active {
-    color: rgb(211, 34, 34) !important; /* Sobrescreve a cor azul padrão */
-    background-color: transparent !important; /* Fundo transparente para o link ativo */
-}
-.nav-produtos1 .nav-link:hover {
-    color: lightgrey !important; /* Texto em lightgrey ao passar o mouse */
-    background-color: rgb(211, 34, 34) !important; /* Fundo em RGB ao passar o mouse */
+.nav-link:hover{
+    color: lightgrey;;
 }
 
-.nav-produtos .nav-link:hover {
-    color: lightgrey !important; /* Texto em lightgrey ao passar o mouse */
-    background-color: rgb(211, 34, 34) !important; /* Fundo em RGB ao passar o mouse */
-}
 .custom-space {
     margin: 20px; /* Adiciona margem em todos os lados */
     padding: 15px; /* Adiciona padding em todos os lados */
