@@ -71,16 +71,16 @@ textarea{
 @media (max-width: 767px){
     .carousel-item img{
         height: 200px;
+    }  
+    .img-ajuste{
+        width:60px;
+        }
+    .carousel.slide{
+        margin-bottom:0;
+    }    
+    .custom-img{
+        width:320px;
     }
-.img-ajuste{
-    width:60px;
-    }
-.carousel.slide{
-    margin-bottom:0;
-}    
-.custom-img{
-    width:320px;
-}
 
 
 }
