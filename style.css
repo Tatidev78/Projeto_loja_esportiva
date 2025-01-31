@@ -81,6 +81,8 @@ textarea{
     .custom-img{
         width:320px;
     }
-
+    .custom-space{
+        margin:0;
+    }
 
 }
