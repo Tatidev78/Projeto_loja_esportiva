@@ -68,7 +68,7 @@ textarea{
 }
 
 
-@media (max-width: 767px){
+@media screen and (max-width: 767px){
     .carousel-item img{
         height: 200px;
     }  
@@ -85,4 +85,19 @@ textarea{
         margin:0;
     }
 
+}
+@media screen and (min-width: 1024px) {
+    .custom-img {
+        width: 100%;
+    }
+    .custom-space {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .custom-img {
+        width: 100%;
+    }
+ 
 }
